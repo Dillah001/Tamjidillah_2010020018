@@ -1,0 +1,17 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    background-color: kaki;
+}
+
+h1 {
+    color: indigo;
+}
+
+h2 {
+    color: rgb(170, 173, 204);
+}
+
+.tebal {
+    font-weight: bold;
+}

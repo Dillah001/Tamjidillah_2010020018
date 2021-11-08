@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Table dan Form</title>
+    <link rel="stylesheet"href="style.css">
+</head>
+<body>
+    <!-- ini adalah contoh membuat text di HTML-->
+    <h1>Membuat Link</h1>
+    <hr>
+    <a href="img/slider3.jpg" target="_blank"><img src="img/slider3.jpg" alt="Gambar" width="100"></a>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae quaerat corporis, rerum qui accusamus nobis quia saepe eligendi, facilis nihil labore explicabo quae eius ad eaque obcaecati culpa magnam delectus.</p>
+    <hr>
+    <ul>
+        <li><a href="index.html#table">Table</a></li>
+        <li><a href="index.html#form">Form</a></li>
+    </ul>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <div id="table">
+        <h2>Belajar Table</h2>
+        
+    <table border="1" cellspacing="0" cellpadding="6" width="100">
+        <thead>
+            <tr>
+                <th>No</th>
+                <th>Nama</th>
+                <th>NPM</th>
+                <th>Kelas</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Tamjidillah</td>
+                <td>2010020018</td>
+                <td>3A SI</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Muhammad Iqbal Ramadhan</td>
+                <td>2010020020</td>
+                <td>3A SI</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Andri Saputra</td>
+                <td>2010020038</td>
+                <td>3A SI</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>No</th>
+                <th>Nama</th>
+                <th>NPM</th>
+                <th>Kelas</th>
+            </tr>
+        </tfoot>
+    </table>
+    <p><a href="#">Kembali</a>/p>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    </div>
+    <div id="form">
+        <h2>Belajar Form</h2>
+        <p>Silahkan mengisi data pada form dibawah ini..!</p>
+        <form action=""method="post">
+            <table width="100" cellpadding="4">
+                <tr>
+                    <td><label for="nama">Nama</label></td>
+                    <td><input type="text"name="nama"value=""></td>
+                </tr>
+                <tr>
+                    <td><label for="Jenis Kelamin">Jenis Kelamin</label></td>
+                    <td>
+                        <input type="radio" name="jk" value="Laki-Laki" checked>Laki-Laki
+                        <input type="radio" name="jk" value="Perempuan">Perempuan
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="Hobi">Hobi</label></td>
+                    <td>
+                        <input type="checkbox" name="hobi" value="Makan"> Makan
+                        <input type="checkbox" name="hobi" value="Tidur "> Tidur
+                        <input type="checkbox" name="hobi" value="Nonton "> Nonton
+                        <input type="checkbox" name="hobi" value="Olahraga "> Olahraga
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="agama">Agama</label></td>
+                    <td>
+                        <select name="agama">
+                            <option value="Islam">Islam</option>
+                            <option value="Katolik">Katolik</option>
+                            <option value="Protestan">Protestan</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top"><label for="alamat">Alamat</label></td>
+                    <td><textarea name="alamat" cols="50" rows="5"></textarea></td>
+                </tr>
+                <tr>
+                    <td><label for="password">password</label></td>
+                    <td><input type="password" name="password" value=""></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <button type="submit">Simpan</button>
+                        <input type="button" value="cancel">
+                        <input type="reset" value="Reset">
+                    </td>
+                </tr>
+            </table>
+        </form>
+        <p><a href="#">Kembali</a></p>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    </div>
+</body>
+</html>
