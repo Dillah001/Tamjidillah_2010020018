@@ -1,0 +1,81 @@
+h1 {
+    color: orange;
+    font-family: "Segoe UI";
+}
+
+.kotak1 {
+    padding: 50px;
+    /*memberi jarak dalam pada kotak*/
+    width: 100px;
+    /*membuat lebar kotak 100px*/
+    height: 50px;
+    /*membuat tinggi kotak 100px*/
+    color: #fff;
+    /*memberi warna pada text / font */
+    margin: 10px;
+    /* memberi jarak luar kotak */
+    background: #0288d1;
+    /*memberi warna kotak */
+    float: left;
+    /*membuat kotak jadi kesamping kiri*/
+}
+
+.kotak2 {
+    padding: 50px;
+    /*memberi jarak dalam pada kotak*/
+    width: 100px;
+    /*membuat lebar kotak 100px*/
+    height: 50px;
+    /*membuat tinggi kotak 100px*/
+    color: #fff;
+    /*memberi warna pada text / font */
+    margin: 10px;
+    /* memberi jarak luar kotak */
+    background: purple;
+    /*memberi warna kotak */
+    float: left;
+    /*membuat kotak jadi kesamping kiri*/
+}
+
+.kotak3 {
+    padding: 50px;
+    /*memberi jarak dalam pada kotak*/
+    width: 100px;
+    /*membuat lebar kotak 100px*/
+    height: 50px;
+    /*membuat tinggi kotak 100px*/
+    color: #fff;
+    /*memberi warna pada text / font */
+    margin: 10px;
+    /* memberi jarak luar kotak */
+    background: #0288d1;
+    /*memberi warna kotak */
+    float: left;
+    /*membuat kotak jadi kesamping kiri*/
+}
+
+.kotak4 {
+    padding: 50px;
+    /*memberi jarak dalam pada kotak*/
+    width: 100px;
+    /*membuat lebar kotak 100px*/
+    height: 50px;
+    /*membuat tinggi kotak 100px*/
+    color: #fff;
+    /*memberi warna pada text / font */
+    margin: 10px;
+    /* memberi jarak luar kotak */
+    background: pink;
+    /*memberi warna kotak */
+    float: left;
+    /*membuat kotak jadi kesamping kiri*/
+}
+
+#kotak {
+    padding: 50px;
+    width: 100px;
+    color: #666666;
+    height: 50px;
+    margin: 10px;
+    background: #f8bbd0;
+    float: left;
